@@ -1,7 +1,7 @@
 class Skills < Formula
   desc "CLI tool for packaging and managing AI agent skills as OCI artifacts"
   homepage "https://github.com/salaboy/skills-cli"
-  version "1.0.0"
+  version "0.0.1"
   license "Apache-2.0"
 
   on_macos do
