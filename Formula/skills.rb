@@ -1,26 +1,26 @@
 class Skills < Formula
   desc "CLI tool for packaging and managing AI agent skills as OCI artifacts"
   homepage "https://github.com/salaboy/skills-oci"
-  version "0.0.4"
+  version "0.0.5"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/salaboy/skills-oci/releases/download/v#{version}/skills-oci-darwin-arm64"
-      sha256 "71f4ffaa750475fab74ded7b0a36ad2889e7a0fc73a645d81fec94be01755a66"
+      sha256 "6634bf2ea12dad15aa64ee6c456d57c4bd96de72e818990e553c8e797b8238a8"
     else
       url "https://github.com/salaboy/skills-oci/releases/download/v#{version}/skills-oci-darwin-amd64"
-      sha256 "5fa68d11ab70f4480eedadce44d09e559bd003435eccdd9939ce55e67b8fd17e"
+      sha256 "dfe9dbcf3c2409961911708622a32a629a819ace243fcede60e76d4201887991"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/salaboy/skills-oci/releases/download/v#{version}/skills-oci-linux-arm64"
-      sha256 "46275ef4833e0318201076850abfb4523fb86d96bf463391ec7cb1d3d68bcfcc"
+      sha256 "a6bc305e1c6f74148fc582910c62f9d722cc79af336704098e45fd8c3a149b19"
     else
       url "https://github.com/salaboy/skills-oci/releases/download/v#{version}/skills-oci-linux-amd64"
-      sha256 "6fc275850bb320608fc3745a085447b8787299d6830a675351f43a078f951001"
+      sha256 "c31e9505fcb12874e4d6496eae22444b19570f2171f954806b2a254bae66cf55"
     end
   end
 
