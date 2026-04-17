@@ -1,4 +1,4 @@
-class Skills < Formula
+class SkillsOci < Formula
   desc "CLI tool for packaging and managing AI agent skills as OCI artifacts"
   homepage "https://github.com/salaboy/skills-oci"
   version "0.0.5"
